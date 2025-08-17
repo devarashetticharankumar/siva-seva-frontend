@@ -1,0 +1,46 @@
+@import "tailwindcss";
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body {
+  font-family: "Noto Sans Telugu", "Inter", sans-serif;
+  background-color: #fff8e1;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Noto Sans Telugu", sans-serif;
+  color: #1a3c34;
+}
+
+p,
+a,
+button,
+input,
+select {
+  font-family: "Inter", sans-serif;
+}
+
+.hero-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://via.placeholder.com/1200x600?text=Vinayaka+Chavithi+2025");
+  background-size: cover;
+  background-position: center;
+}
+
+:root {
+  --festival-primary: #ff4500; /* Saffron */
+  --festival-secondary: #ffd700; /* Gold */
+  --festival-accent: #228b22; /* Green for vibrancy */
+  --festival-bg: linear-gradient(135deg, #ff4500 0%, #ffd700 50%, #228b22 100%);
+}
+body {
+  background: var(--festival-bg);
+  font-family: "Poppins", sans-serif;
+}
+
+.telugu-text {
+  font-family: "Gidugu", sans-serif;
+}
