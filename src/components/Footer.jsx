@@ -121,7 +121,7 @@
 // Footer.jsx (Updated: Updated colors, added gold accents, improved accessibility)
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import logo from "../assets/logo.svg"; // Importing the logo from the assets folder
+import logo from "../assets/sivasevalogo.svg"; // Importing the logo from the assets folder
 
 function Footer() {
   return (

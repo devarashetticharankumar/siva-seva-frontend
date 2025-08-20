@@ -430,7 +430,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import logo from "../assets/logo.svg"; // Importing the logo from the assets folder
+import logo from "../assets/sivasevalogo.svg"; // Importing the logo from the assets folder
 
 function Navbar({ user, setUser }) {
   const navigate = useNavigate();
